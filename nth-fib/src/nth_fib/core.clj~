@@ -13,8 +13,8 @@
 )
 
 (defn -main [& args]
-	(println "Enter n")
- 	(let [n (read-string (read-line))]
-  		(nth-fib n)
-  	) 
+  (println "Enter n")
+  (let [n (read-string (read-line))]
+    (nth-fib n)
+  ) 
 )  
